@@ -1,3 +1,5 @@
+![Cover Banner](assets/cover_page_banner.png)
+
 # Elderly Care Coordinator Agent
 
 An advanced, safe concierge assistant built on ADK 2.0 to coordinate elderly caregiving coordinates (medications, doctor appointments, vital health logs) with built-in security screening and Human-in-the-Loop (HITL) safety checks.
@@ -15,7 +17,10 @@ This coordinator is designed as an agentic workflow featuring:
 * **Stdio MCP Server**: Manages patient records locally inside `app/care_data.json` through tool interfaces.
 * **Family Approval HITL**: Pauses execution and requests confirmation for scheduling or prescription modifications.
 
+![System Architecture Flow](assets/architecture_diagram.png)
+
 For a detailed design and fix walkthrough, refer to [SUBMISSION_WRITEUP.md](SUBMISSION_WRITEUP.md).
+
 
 ---
 
