@@ -1,0 +1,34 @@
+{
+    "medications": {
+        "John Doe": [
+            {
+                "med_name": "Donepezil",
+                "dosage": "10mg",
+                "schedule": "morning"
+            },
+            {
+                "med_name": "Lisinopril",
+                "dosage": "20mg",
+                "schedule": "evening"
+            }
+        ]
+    },
+    "appointments": {
+        "John Doe": [
+            {
+                "doctor": "Dr. Smith (Cardiologist)",
+                "datetime_str": "2026-07-10 10:00 AM",
+                "purpose": "Routine cardiology follow-up"
+            }
+        ]
+    },
+    "checkins": {
+        "John Doe": [
+            {
+                "timestamp": "2026-06-25 08:00 AM",
+                "vital_stats": "BP 120/80, HR 72, Temp 98.6 F",
+                "notes": "Feeling well, walked in the garden."
+            }
+        ]
+    }
+}
